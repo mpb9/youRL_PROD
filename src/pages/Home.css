@@ -1,0 +1,197 @@
+#profile{
+    background-color: #ff8903;
+    margin: 0 auto;
+    height: inherit;
+    padding: 0px;
+}
+#nostuff{
+    background-color: #ff8903;
+    margin: 0 auto;
+    height: inherit;
+}
+#yourstuff{
+    background-color: #ff8903;
+    margin: 0 auto;
+    padding:0px;
+    height: inherit;
+}
+#middlecol{
+    margin:0px;
+    padding:0px;
+    background-color: #090004;
+    height: inherit;
+}
+#bigcontainer{
+    background-color: #090004;
+    margin: 0px; 
+    padding: 0px;
+    height: 100vh;
+}
+#bigrow{
+    height: 92vh;
+    width: inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+#navrow{
+    background-color: #ff8903;
+    height: 8vh; 
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 3px solid #090004;
+    width: inherit;
+}
+#medrow{
+    margin: 0 auto;
+    height: inherit;
+    padding: 0px;
+}
+#medcol{
+    margin: 0 auto;
+    height: inherit;
+    padding: 0px;
+}
+#explorecontainer{
+    background-color: #ffffff;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin: 0 auto; 
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+#explorerow{
+    height: 100%;
+    width: inherit;
+    margin: 0 auto;
+    padding: 0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+#explorerow::-webkit-scrollbar {
+    display: none;
+}
+#submitLinkRow{
+    height: max-content;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+#logoutBut{
+    background-color: #2297ff;
+    border-color: black;
+    color: black;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+#friendsFeedBut{
+  width:max-content;
+  height: min-content;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 2px solid black;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  color: black;
+}
+#popularFeedBut{
+    width:max-content;
+    height: min-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    color: black;
+}
+#searchInput{
+    width: 75%;
+    height: min-content;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+    background-color: #e497ff;
+    border: 2px solid black;
+    color: black;
+}
+#searchType{
+    width:max-content;
+    height: min-content;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #2297ff;
+    border: 1px solid black;
+    color: black;
+    margin: 3px;
+}
+#youRFeedHeader{
+    margin-bottom:0px;
+    padding-bottom:5px;
+    border-bottom:2px solid black;
+    width:100%;
+    background-color: #2297ff;
+    color:#090004;
+}
+
+#nextyouRLHeader{
+    margin-bottom:40px;
+    padding-bottom:5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width:100%;
+    background-color: #2297ff;
+    color:#090004
+}
+
+#postBut{
+    background-color: #2297ff;
+    border: 2px solid black;
+    color: black;
+    border-radius: 2px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+#switchBut{
+    background-color: #e497ff;
+    border: 2px solid black;
+    color: black;
+    border-radius: 2px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+#postInput{
+    width:max-content;
+    height: min-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 10px;
+    background-color: #e497ff;
+    border: 2px solid black;
+    color: black;
+}
+#newUserInput{
+    width: 55%;
+    height: min-content;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: #e497ff;
+    border: 2px solid black;
+    color: black;
+    
+}

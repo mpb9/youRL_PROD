@@ -1,0 +1,130 @@
+#profCont{
+  width: 100%;
+  height: fit-content;
+  background-color: #ffffff;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+#profImg{
+  max-width: 40%;
+  max-height: 40%;
+  min-width: 0px;
+  min-height: 0px;
+  border: 1px solid #f2e1c0;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0 auto;
+}
+#profBio{
+  font-size: smaller;
+  border-radius: 3px;
+  width: 95%;
+  max-height: 100%;
+  min-height: min-content;
+  padding: 2px;
+}
+
+#editBut{
+  background-color: #2297ff;
+  border-color: black;
+  color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  margin-left: 0px;
+}
+#doneBut{
+  background-color: #2297ff;
+  border-color: black;
+  color: black;
+  padding: 8px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+}
+#nvmBut{
+  background-color: #ff8903;
+  border-color: black;
+  color: black;
+  padding: 8px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+}
+#pubProCaption{
+  background-color: #ffffff;
+  margin-left:5px;
+  padding: 3px;
+  font-size: small;
+  text-align: left;
+  border-radius: 3px;
+}
+#pubLink{
+  padding: 7px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  background-color: #2297ff;
+  border: 1px solid black;
+  color: black;
+}
+#pubProPic{
+  max-width: 90px;
+  max-height: 90px;
+  min-width: 0px;
+  min-height: 0px;
+  border: 1px solid #f2e1c0;
+  border-radius: 2px;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+#editBioInput{
+  min-width: 90%; 
+  min-height: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+#newBioBut{
+  width:max-content;
+  height: min-content;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-top: 3px;
+  margin-left: 3px;
+  background-color: #2297ff;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: small;
+}
+#editNameInput{
+  width: max-content;
+  max-width: 90%;
+  min-width: 50px;
+  height: 30px;
+}
+
+#fileInput{
+  margin-left: 5px;
+  max-width: 90%;
+  min-width: 20px;
+  padding: 2px;
+  height: max-content;
+  font-size: smaller;
+}
+#fileUpload{
+  background-color: #2297ff;
+  border: 1px solid black;
+  color: black;
+  border-radius: 3px;
+  padding: 8px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
