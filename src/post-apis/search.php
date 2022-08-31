@@ -1,25 +1,4 @@
 <?php
-/*
-$incUser = $_POST['filtUser'];
-$incTitle = $_POST['filtTitle'];
-$incCaption = $_POST['filtCaption'];
-$incSource = $_POST['filtSource'];
-$search = $_POST['query'];
-
-      UNION
-      SELECT * FROM media 
-      WHERE :incSource AND url LIKE '%:search%'
-      UNION
-      SELECT * FROM media
-      WHERE :incTitle AND title LIKE '%:search%'
-      UNION
-      SELECT * FROM media
-      WHERE :incCaption AND caption LIKE '%:search%'
-
-      $s->bindValue(':incTitle', $incTitle);
-    $s->bindValue(':incSource', $incSource);
-    $s->bindValue(':incCaption', $incCaption);
-*/
 
 function pop_search_result($name, $search, $incUser, $incTitle, $incSource, $incCaption){
   include $_SERVER['DOCUMENT_ROOT'] . '/mediashared/src/includes/db.inc.php';
@@ -49,7 +28,7 @@ function pop_search_result($name, $search, $incUser, $incTitle, $incSource, $inc
 
   }catch(PDOException $e) {
       $error = ($e->getMessage());
-      include $_SERVER['DOCUMENT_ROOT'] . '/mediashared/src/includes/error.html.php';
+      echo $error;
       exit();
     
   }
@@ -115,7 +94,7 @@ function friend_search_result($name, $search, $incUser, $incTitle, $incSource, $
 
   }catch(PDOException $e) {
       $error = ($e->getMessage());
-      include $_SERVER['DOCUMENT_ROOT'] . '/mediashared/src/includes/error.html.php';
+      echo $error;
       exit();
     
   }

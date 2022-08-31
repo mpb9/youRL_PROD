@@ -1,11 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import {Container, Row, Col, Button} from 'react-bootstrap';
 import ShowPost from '../helpers/ShowPost';
 import axios from 'axios';
 import './Home.css';
 import './Form.css';
 
-const FRIENDFEED = "http://localhost/mediashared/src/post-apis/feed.php";
 const POPFEED = "http://localhost/mediashared/src/post-apis/popfeed.php";
 
 function Feed({username, friends, incUser, incTitle, incSource, incCaption, search, newSearch}) {
@@ -36,22 +34,6 @@ function Feed({username, friends, incUser, incTitle, incSource, incCaption, sear
     }, [friends, inputs.query, inputs.filtUser, inputs.filtCaption, inputs.filtSource, inputs.filtTitle]);
 
     const updateFeed = (updateInfo) =>{
-      if(friends){
-        axios({
-          method: "post",
-          url: `${FRIENDFEED}`,
-          headers: { "content-type": "application/json" },
-          data: inputs
-        })
-        .then((result) => {
-          const name = 'posts';
-          const value = result.data;
-          setInputs(values => ({...values, [name]: value}));
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-      } else {
 
         axios({
           method: "post",
@@ -60,6 +42,7 @@ function Feed({username, friends, incUser, incTitle, incSource, incCaption, sear
           data: inputs
         })
         .then((result) => {
+          console.log(result.data);
           const name = 'posts';
           const value = result.data;
           setInputs(values => ({...values, [name]: value}));
@@ -67,7 +50,7 @@ function Feed({username, friends, incUser, incTitle, incSource, incCaption, sear
         .catch((error) => {
           console.log(error);
         });
-      }
+      
     }
     return (
       <section style={{width:'100%', margin: '0 auto', padding:'0px'}}>

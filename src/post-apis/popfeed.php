@@ -40,7 +40,7 @@ if($searchLength > 0){
     $s->execute();
   } catch (PDOException $e) {
     $error = 'Error finding general popular posts';
-    include $_SERVER['DOCUMENT_ROOT'] . '/mediashared/src/includes/error.html.php';
+    echo $error;
     exit();
   }
   

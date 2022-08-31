@@ -25,7 +25,7 @@ try
 catch (PDOException $e)
 {
   $error = 'Error searching for user.';
-  include $_SERVER['DOCUMENT_ROOT'] . '/mediashared/src/includes/error.html.php';
+  echo $error;
   exit();
 }
 
